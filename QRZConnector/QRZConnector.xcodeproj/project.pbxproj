@@ -15,8 +15,8 @@
 		2904D70218A7286D00589C21 /* QRZConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2904D6E518A7286C00589C21 /* QRZConnector.framework */; };
 		2904D70818A7286D00589C21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2904D70618A7286D00589C21 /* InfoPlist.strings */; };
 		2904D70A18A7286D00589C21 /* QRZConnectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2904D70918A7286D00589C21 /* QRZConnectorTests.m */; };
-		2904D71D18A72F9900589C21 /* QRZContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2904D71B18A72F9900589C21 /* QRZContainer.h */; };
-		2904D71E18A72F9900589C21 /* QRZContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2904D71C18A72F9900589C21 /* QRZContainer.m */; };
+		29F60A2018A7305900A65A86 /* QRZContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 29F60A1E18A7305900A65A86 /* QRZContainer.h */; };
+		29F60A2118A7305900A65A86 /* QRZContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F60A1F18A7305900A65A86 /* QRZContainer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +45,8 @@
 		2904D70518A7286D00589C21 /* QRZConnectorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QRZConnectorTests-Info.plist"; sourceTree = "<group>"; };
 		2904D70718A7286D00589C21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2904D70918A7286D00589C21 /* QRZConnectorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRZConnectorTests.m; sourceTree = "<group>"; };
-		2904D71B18A72F9900589C21 /* QRZContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QRZContainer.h; path = ../QRZContainer.h; sourceTree = "<group>"; };
-		2904D71C18A72F9900589C21 /* QRZContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QRZContainer.m; path = ../QRZContainer.m; sourceTree = "<group>"; };
+		29F60A1E18A7305900A65A86 /* QRZContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRZContainer.h; sourceTree = "<group>"; };
+		29F60A1F18A7305900A65A86 /* QRZContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRZContainer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,8 +113,8 @@
 		2904D6EE18A7286C00589C21 /* QRZConnector */ = {
 			isa = PBXGroup;
 			children = (
-				2904D71B18A72F9900589C21 /* QRZContainer.h */,
-				2904D71C18A72F9900589C21 /* QRZContainer.m */,
+				29F60A1E18A7305900A65A86 /* QRZContainer.h */,
+				29F60A1F18A7305900A65A86 /* QRZContainer.m */,
 				2904D6F518A7286C00589C21 /* QRZConnector.h */,
 				2904D6F618A7286C00589C21 /* QRZConnector.m */,
 				2904D6EF18A7286C00589C21 /* Supporting Files */,
@@ -157,7 +157,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2904D71D18A72F9900589C21 /* QRZContainer.h in Headers */,
+				29F60A2018A7305900A65A86 /* QRZContainer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2904D6F718A7286C00589C21 /* QRZConnector.m in Sources */,
-				2904D71E18A72F9900589C21 /* QRZContainer.m in Sources */,
+				29F60A2118A7305900A65A86 /* QRZContainer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +456,7 @@
 				2904D70F18A7286D00589C21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2904D71018A7286D00589C21 /* Build configuration list for PBXNativeTarget "QRZConnectorTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +465,7 @@
 				2904D71218A7286D00589C21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
