@@ -3,7 +3,7 @@
 //  QRZConnector
 //
 //  Created by Matthew on 2/8/14.
-//  Copyright (c) 2014 N1MJB. All rights reserved.
+//  Copyright (c) 2014 Matthew J Beauchesne. All rights reserved.
 //
 
 #import "QRZConnector.h"
